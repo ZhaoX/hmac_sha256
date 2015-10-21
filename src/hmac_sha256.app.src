@@ -1,0 +1,7 @@
+{application, hmac_sha256,
+  [{description, "A hmac_sha356 implementation."},
+    {vsn, "0.1"},
+    {modules, []},
+    {registered, []},
+    {applications, [kernel, stdlib, crypto]},
+    {env, []}]}.
